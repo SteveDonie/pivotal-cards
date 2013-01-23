@@ -1,5 +1,5 @@
 /*
- *  hard-coded ISO paper sizes, but you can zoom when printing, no?
+ *  hard-coded US paper sizes, but you can zoom when printing, no?
  */
 .page {
 	font-family: "Helvetica Neue", sans-serif;
@@ -9,8 +9,8 @@
 	margin: 14mm 5.5mm;
 	padding: 0;
 	border: 1px dotted #eee;
-	width: 283mm;
-	height: 170mm;
+	width: 11in;
+	height: 8.5in;
 	page-break-after: always;
 }
 
@@ -28,15 +28,12 @@
 .card {
 	float: left;
 	height: 85mm;
-	width; 132mm;
-	padding: 0;
-	padding-left: 3.5mm;
-	padding-top: 0.5mm;
+	width: 141mm;
 	-webkit-print-color-adjust: exact;
 }
 
 .side {
-	margin: 5mm;
+	margin: 4mm 0 0 7mm;
 
 	height: 65mm;
 	width: 115mm;
@@ -241,9 +238,8 @@
 	color: #d0c0ff;
 }
 
-.filing-colours .feature,
-.filing-colours .feature .footer {
-	background-color: #e9f9d9;
+.filing-colours .feature {
+	box-shadow: inset 0 0 10mm 1mm green, 0 0 0 1px black;
 }
 
 .filing-colours .feature .label {
