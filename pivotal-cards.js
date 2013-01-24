@@ -176,12 +176,10 @@
 			front_page.append(fronts[cardno]);
 			back_page.append(backs[cardno]);
 
-			/*
 			if (!(cardno % 2)) {
 			} else {
 				$(back_page).children().last().before(backs[cardno]);
 			}
-			*/
 		}
 	}
 

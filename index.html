@@ -19,18 +19,19 @@
         <p>Bookmarklet to print a Pivotal Tracker storyboard as index cards</p>
 
         <p class="view"><a href="https://github.com/SteveDonie/pivotal-cards">View the Project on GitHub <small>SteveDonie/pivotal-cards</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/SteveDonie/pivotal-cards/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/SteveDonie/pivotal-cards/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/SteveDonie/pivotal-cards">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
-      <section>
-        <h3>Pivotal Cards</h3>
-		<p>This is a fork of <a href="https://github.com/psd/pivotal-cards">another project</a>, but made to suit US page sizes rather than ISO page sizes.</p>
-		<p>Drag the <a href='javascript:(function(){var a="http://stevedonie.github.com/pivotal-cards/",b="",c=document.createElement("link");c.rel="stylesheet",c.href=a+"pivotal-cards.css"+b,c.media="screen,print",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c);var d=document.createElement("script");d.src=a+"pivotal-cards.js"+b,document.body.appendChild(d)})();'>pivotal-cards</a> bookmarklet to your toolbar, then run the bookmarklet while viewing a Pivotal Tracker page.
+
+	<section>
+		<h3>Pivotal Cards</h3>
+		<p>This is a fork of <a href="https://github.com/psd/pivotal-cards">another project</a>, but made to suit US page sizes rather than ISO page sizes. All the measurements in the CSS are still
+		in mm, but I've just made it so it fills a US letter sized page better. I also changed the cards so that only part of the feature cards gets the background color, to save a little on ink.</p>
+		<p>To use this, drag the 
+		<a href='javascript:(function(){var a="http://stevedonie.github.com/pivotal-cards/",b="",c=document.createElement("link");c.rel="stylesheet",c.href=a+"pivotal-cards.css"+b,c.media="screen,print",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c);var d=document.createElement("script");d.src=a+"pivotal-cards.js"+b,document.body.appendChild(d)})();'>
+		pivotal-cards</a> bookmarklet to your toolbar, then run the bookmarklet while viewing a Pivotal Tracker page.
 		The page will reformat, suitable for printing. Print the pages in Landscape mode, double-sided, and then cut them up. Easy Peasy!</p>
+		<P>In theory, they should look like this:</p>
+		<img src="http://farm8.staticflickr.com/7177/7152746089_ed27153ffe.jpg"/>
+		<p>But they aren't doing that now. I thought they should print double-sided, but when you do that now, the backs don't match up with the fronts.</p>
+	</section>
   </body>
 </html>
