@@ -6,11 +6,11 @@
 	font-size: 3.5mm;
 	padding: 10mm;
 	display: block;
-	margin: 14mm 0.5mm;
+	margin: .1mm .1mm;
 	padding: 0;
-	border: 1px dotted #eee;
-	width: 283mm;
-	height: 170mm;
+	border: 1px dotted #888;
+	width: 314mm;
+	height: 234mm;
 	page-break-after: always;
 }
 
@@ -27,16 +27,16 @@
 
 .card {
 	float: left;
-	height: 85mm;
-	width: 141mm;
+	height: 117mm;
+	width: 157mm;
 	-webkit-print-color-adjust: exact;
 }
 
 .side {
 	margin: 4mm 0 0 4mm;
 
-	height: 68mm;
-	width: 125mm;
+	height: 101mm;
+	width: 141mm;
 
 	padding: 3mm;
 	overflow: hidden;
@@ -62,17 +62,17 @@
 }
 
 .middle {
-	height: 53mm;
-	max-height: 53mm;
-	width: 115mm;
+	height: 84mm;
+	max-height: 84mm;
+	width: 141mm;
 	overflow: hidden;
 	display: table;
 	position: relative;
 }
 
 .back .middle {
-	height: 48mm;
-	max-height: 48mm;
+	height: 80mm;
+	max-height: 80mm;
 }
 
 .front .story-type {
@@ -128,7 +128,7 @@
 .footer {
 	color: #333;
 	height: 7.5mm;
-	width: 115mm;
+	width: 141mm;
 	position: absolute;
 	bottom: 0;
 }
