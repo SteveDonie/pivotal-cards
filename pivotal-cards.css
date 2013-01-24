@@ -9,7 +9,7 @@
 	margin: 14mm 5.5mm;
 	padding: 0;
 	border: 1px dotted #eee;
-	width: 216mm;
+	width: 283mm;
 	height: 170mm;
 	page-break-after: always;
 }
@@ -33,12 +33,12 @@
 }
 
 .side {
-	margin: 4mm 0 0 7mm;
+	margin: 4mm 0 0 4mm;
 
-	height: 65mm;
-	width: 115mm;
+	height: 66mm;
+	width: 125mm;
 
-	padding: 5mm;
+	padding: 3mm;
 	overflow: hidden;
 	color: #333;
 	position: relative;
